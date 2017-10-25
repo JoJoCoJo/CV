@@ -1,44 +1,163 @@
 <!DOCTYPE html>
 <html lang="es-MX">
-<head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.9.0/sweetalert2.css" />
-	<link rel="stylesheet" href="DataTables/css/jquery.dataTables.css">
-	
-	<title>Página Principal</title>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.9.0/sweetalert2.js"></script>
-	<script src="https://code.highcharts.com/highcharts.src.js"></script>
-	<script src="https://code.highcharts.com/modules/exporting.js"></script>
-	<script src="DataTables/js/jquery.dataTables.js"></script>
-</head>
-<body style="padding-top: 80px;">
-	<header>
-		<nav class="navbar fixed-top navbar-dark bg-dark">
-			<a class="navbar-brand" href="#" style="font-size: 30px;">JoJo CJ</a>
-		</nav>
-	</header>
-	<div class="row">
-		<div class="container">
-			<div class="jumbotron">
-			  <h1 class="display-3">José Joaquín Contreras Jorge</h1>
-			  <figure class="figure">
-			    <img src="..." class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-			    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-			  </figure>
-			  <hr class="my-4">
-			  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-			  <p class="lead">
-			    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-			  </p>
-			</div>
-		</div>
-	</div>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>JoJo CJ | Desarrollador Web</title>
+	<style>
+	* {font-family: 'Open Sans', sans-serif}
+	</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12004_240043402797705_1103571424_n.jpg?oh=271411f92e21a3647074271b4e354085&oe=5A819D7E" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <h2>José Joaquín Contreras Jorge</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>
+          	<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>
+          	Desarrollador Web y Móvil
+          </p>
+          <p>
+          	<i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>
+          	Tabasco, México
+          </p>
+          <p>
+          	<i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>
+          	<a href="mailto:j.joaquin.cj@gmail.com">
+          	j.joaquin.cj@gmail.com
+      	    </a>
+      	  </p>
+          <p>
+          	<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>
+          	<a href="tel:529931735377">(993)-1-73-53-77</a>
+          </p>
+          <hr>
+
+          <p class="w3-large">
+          	<b>
+          		<i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue-grey"></i>
+          		Habilidades
+          	</b>
+          </p>
+          <p>Aplicaciones Móviles (Android)</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:70%">70%</div>
+          </div>
+          <p>Creación de API Rest (PHP)</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>Frameworks CSS (Bootstrap, Materialize, W3.css, etc.)</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>Bases de Datos (SQL)</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:60%">60%</div>
+          </div>
+          <p>JavaScript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:50%">50%</div>
+          </div>
+          <p>Git</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme">
+          	<b>
+          		<i class="fa fa-globe fa-fw w3-margin-right w3-text-blue-grey"></i>
+          		Idiomas
+          	</b>
+          </p>
+          <p>Español (Nativo)</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:100%">100%</div>
+          </div>
+          <p>Inglés</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue-grey" style="width:70%">70%</div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Experiencia Laboral</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Desarrollador Web</b></h5>
+          <h6 class="w3-text-blue-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Agosto 2017 - <span class="w3-tag w3-blue-grey w3-round">Presente</span></h6>
+          <p>Actualmente me encuentro laborando en una empresa privada, en la renovación de su página web.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Desarrollador Web y Móvil / <a href="http://scan-share.com.mx/" target="_blank">Scan & Share</a></b></h5>
+          <h6 class="w3-text-blue-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Enero 2017 - Abril 2017</h6>
+          <p>Estadía dónde se realizo una aplicación móvil y un administrador web que controlaba y compartía la información con la aplicación móvil.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Educación</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Universidad Tecnológica Metropolitana</b></h5>
+          <h6 class="w3-text-blue-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mayo 2015 - Abril 2017</h6>
+          <p>Ingeniería en Tecnologías de la Información</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Universidad Tecnológica de Tabasco</b></h5>
+          <h6 class="w3-text-blue-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Agosto 2012 - Abril 2015</h6>
+          <p>Técnico Superior Universitario en Tecnologías de la Información y Comunicación área Sistemas Informáticos</p>
+          <br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-blue-grey w3-center w3-margin-top">
+  <p>Mis redes sociales.</p>
+  <a href="https://www.facebook.com/jojocojo" target="_blank"><i class="fa fa-facebook-official fa-3x w3-hover-opacity"></i></a>
+  <a href="https://api.whatsapp.com/api/send?phone=529931735377" target="_blank"><i class="fa fa-whatsapp fa-3x w3-hover-opacity"></i></a>
+  <a href="mailto:j.joaquin.cj@gmail.com"><i class="fa fa-envelope fa-3x w3-hover-opacity"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
 </body>
 </html>
