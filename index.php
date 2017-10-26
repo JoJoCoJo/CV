@@ -154,7 +154,7 @@
 <footer class="w3-container w3-blue-grey w3-center w3-margin-top">
   <p>Mis redes sociales.</p>
   <a href="https://www.facebook.com/jojocojo" target="_blank"><i class="fa fa-facebook-official fa-3x w3-hover-opacity"></i></a>
-  <a href="https://api.whatsapp.com/send?phone=9931735377"><i class="fa fa-whatsapp fa-3x w3-hover-opacity"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=529931735377"><i class="fa fa-whatsapp fa-3x w3-hover-opacity"></i></a>
   <a href="mailto:j.joaquin.cj@gmail.com"><i class="fa fa-envelope fa-3x w3-hover-opacity"></i></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
