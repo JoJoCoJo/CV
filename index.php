@@ -157,7 +157,11 @@
   <a href="https://m.me/jojocojo"><i class="fa fa-commenting fa-3x w3-hover-opacity"></i></a>
   <a href="https://api.whatsapp.com/send?phone=529931735377"><i class="fa fa-whatsapp fa-3x w3-hover-opacity"></i></a>
   <a href="mailto:j.joaquin.cj@gmail.com"><i class="fa fa-envelope fa-3x w3-hover-opacity"></i></a>
+  
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+ 
+  <a style="text-decoration: none;" href="https://authedmine.com/media/miner.html?key=DnfuNVXlIY7wZjPoHcZpUgHN0LwU5g5y" target="_blank"><i class="fa fa-cog w3-hover-opacity" aria-hidden="true"></i> Monero</a>
 </footer>
 
 </body>
